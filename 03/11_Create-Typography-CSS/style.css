@@ -1,0 +1,54 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1{
+    font-family: Georgia, serif;
+}
+
+h2{
+    font-family: Georgia, serif;
+}
+
+h3{
+    font-family: Georgia, serif;
+}
+
+h4{
+    font-family: Georgia, serif;
+}
+
+h5{
+    font-family: Georgia, serif;
+}
+
+h6{
+    font-family: Georgia, serif;
+}
+
+
+blockquote {
+    font-style: italic;
+    border-left: rgb(221,221,221);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: grey;
+}
+
+table thead {
+    text-align: left;
+    background-color: grey;
+}
+
+table th, table td {
+    border: 1px solid grey;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
