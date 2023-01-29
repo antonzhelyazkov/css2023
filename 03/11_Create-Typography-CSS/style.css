@@ -4,30 +4,9 @@ html {
     line-height: 1.5;
 }
 
-h1{
+h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
 }
-
-h2{
-    font-family: Georgia, serif;
-}
-
-h3{
-    font-family: Georgia, serif;
-}
-
-h4{
-    font-family: Georgia, serif;
-}
-
-h5{
-    font-family: Georgia, serif;
-}
-
-h6{
-    font-family: Georgia, serif;
-}
-
 
 blockquote {
     font-style: italic;
@@ -38,6 +17,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     border-color: grey;
+    table-layout: fixed;
 }
 
 table thead {
@@ -51,4 +31,16 @@ table th, table td {
 
 table tbody tr:nth-child(odd) {
     background-color: lightgrey;
+}
+
+ul {
+    list-style: disc;
+}
+
+ul ul ul {
+    list-style: circle;
+}
+
+blockquote .author {
+    text-align: right;
 }

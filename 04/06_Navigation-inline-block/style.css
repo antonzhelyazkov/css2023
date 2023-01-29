@@ -1,0 +1,23 @@
+html {
+    font-family: Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+header nav h1 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul {
+    display: inline-block;
+    color: lightgreen;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
