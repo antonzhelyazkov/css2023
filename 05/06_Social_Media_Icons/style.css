@@ -1,0 +1,38 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px;
+}
+
+a {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: lightgrey;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* a {
+    text-decoration: none;
+    padding: 20px;
+} */
+
+/* li{
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px;
+} */

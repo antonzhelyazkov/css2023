@@ -1,7 +1,7 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
 
 body {
-    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif';
 }
 
 nav {
@@ -29,10 +29,7 @@ i {
 }
 
 button {
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 4px 12px;
     line-height: 20px;
     color: #ffffff;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
